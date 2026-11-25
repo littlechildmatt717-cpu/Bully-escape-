@@ -1,9 +1,0 @@
-{
-  "appId": "com.bullyescape.game",
-  "appName": "Bully Escape",
-  "webDir": "www",
-  "server": {
-    "androidScheme": "https"
-  },
-  "backgroundColor": "#0b1233"
-}
