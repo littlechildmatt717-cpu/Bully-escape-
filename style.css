@@ -1,0 +1,14 @@
+html,body{height:100%;margin:0;background:#1b2236;overflow:hidden;touch-action:none;font-family:system-ui,sans-serif;color:#fff;-webkit-user-select:none;user-select:none}
+canvas{position:fixed;inset:0;width:100%;height:100%}
+#joy{position:fixed;left:18px;bottom:calc(22px + env(safe-area-inset-bottom,0px));width:130px;height:130px;border-radius:50%;background:rgba(255,255,255,.18);border:3px solid rgba(255,255,255,.4);touch-action:none}
+#knob{position:absolute;left:40px;top:40px;width:50px;height:50px;border-radius:50%;background:rgba(255,255,255,.7)}
+.btn{position:fixed;bottom:calc(30px + env(safe-area-inset-bottom,0px));width:110px;height:110px;border-radius:50%;border:4px solid #fff;color:#fff;font-weight:800;font-size:18px;touch-action:none}
+#hide{right:20px;background:rgba(60,120,220,.75)}
+#hide.near{background:rgba(40,190,90,.9)}
+#punch{right:20px;background:rgba(220,60,60,.85);display:none}
+#kick{right:140px;background:rgba(60,120,220,.85);display:none}
+#hud{position:fixed;left:12px;top:calc(10px + env(safe-area-inset-top,0px));font-weight:800;font-size:18px;text-shadow:0 2px 4px #000}
+#ov{position:fixed;inset:0;background:rgba(10,14,28,.82);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;gap:12px}
+#ov h1{font-size:44px;margin:0}#ov p{margin:0;max-width:340px;font-size:17px;opacity:.9}
+#ov button{font-size:20px;font-weight:800;padding:14px 32px;border-radius:14px;border:0;background:#ffb020;color:#222}
+#hud{font-family:"Comic Sans MS","Chalkboard SE",cursive;font-size:26px;-webkit-text-stroke:1px #000;text-shadow:none}#punch,#kick{opacity:.65;width:92px;height:92px;font-size:16px}#kick{right:122px}#mute{position:fixed;left:12px;top:calc(110px + env(safe-area-inset-top,0px));width:42px;height:42px;border-radius:50%;border:2px solid #fff;background:rgba(0,0,0,.45);color:#fff;font-size:20px;padding:0;touch-action:none}

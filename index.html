@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bully Escape</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0b1233">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="g"></canvas><canvas id="c"></canvas><div id="hud"></div>
+<div id="joy"><div id="knob"></div></div>
+<button class="btn" id="hide">HIDE</button><button class="btn" id="punch">PUNCH</button><button class="btn" id="kick">KICK</button>
+<button id="mute" aria-label="Music on or off">&#128266;</button><div id="ov"></div>
+<!-- three.js: local copy first (npm install puts it in www/lib), CDN as fallback -->
+<script src="lib/three.min.js"></script>
+<script>window.THREE||document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"><\/script>')</script>
+<script src="js/game.js"></script>
+</body>
+</html>
