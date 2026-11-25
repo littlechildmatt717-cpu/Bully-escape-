@@ -9,7 +9,8 @@
     "android:setup": "node scripts/setup-android.js",
     "sync": "npx cap sync android",
     "open": "npx cap open android",
-    "splash": "npx @capacitor/assets generate --android"
+    "splash": "npx @capacitor/assets generate --android",
+    "build": "node scripts/build.js"
   },
   "dependencies": {
     "@capacitor/android": "latest",
